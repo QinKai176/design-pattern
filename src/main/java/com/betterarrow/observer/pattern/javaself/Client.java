@@ -1,4 +1,4 @@
-package com.betterarrow.javaself.observer;
+package com.betterarrow.observer.pattern.javaself;
 
 public class Client {
     public static void main(String[] args) {

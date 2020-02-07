@@ -1,13 +1,11 @@
-package com.betterarrow.selfdefine.observer.improve;
+package com.betterarrow.observer.pattern.selfdefine.improve;
 
 public class BaiduSite implements Observer {
 
-	// �¶ȣ���ѹ��ʪ��
 	private float temperature;
 	private float pressure;
 	private float humidity;
 
-	// ���� ������������� WeatherData �����ã���ʹ������ģʽ
 	public void update(float temperature, float pressure, float humidity) {
 		this.temperature = temperature;
 		this.pressure = pressure;
@@ -15,7 +13,6 @@ public class BaiduSite implements Observer {
 		display();
 	}
 
-	// ��ʾ
 	public void display() {
 		System.out.println("===�ٶ���վ====");
 		System.out.println("***�ٶ���վ ���� : " + temperature + "***");

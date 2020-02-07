@@ -1,6 +1,6 @@
 package com.betterarrow;
 
-import com.betterarrow.spring.event.EatEventPublisherAware;
+import com.betterarrow.observer.pattern.spring.EatEventPublisherAware;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

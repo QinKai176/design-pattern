@@ -1,4 +1,4 @@
-package com.betterarrow.spring.event;
+package com.betterarrow.observer.pattern.spring;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationEvent;

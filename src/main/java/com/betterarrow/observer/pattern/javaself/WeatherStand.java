@@ -1,4 +1,4 @@
-package com.betterarrow.javaself.observer;
+package com.betterarrow.observer.pattern.javaself;
 
 import java.util.Observable;
 

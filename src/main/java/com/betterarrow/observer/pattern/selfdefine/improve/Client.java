@@ -1,4 +1,4 @@
-package com.betterarrow.selfdefine.observer.improve;
+package com.betterarrow.observer.pattern.selfdefine.improve;
 
 public class Client {
 

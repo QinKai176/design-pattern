@@ -1,4 +1,4 @@
-package com.betterarrow.selfdefine.observer;
+package com.betterarrow.observer.pattern.selfdefine;
 
 /**
  * ���Ǻ���

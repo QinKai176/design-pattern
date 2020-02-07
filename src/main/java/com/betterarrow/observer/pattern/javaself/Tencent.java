@@ -1,9 +1,9 @@
-package com.betterarrow.javaself.observer;
+package com.betterarrow.observer.pattern.javaself;
 
 import java.util.Observable;
 import java.util.Observer;
 
-public class Alibaba implements Observer {
+public class Tencent implements Observer {
 
     private double temperature;
 
@@ -21,7 +21,7 @@ public class Alibaba implements Observer {
 
     @Override
     public String toString() {
-        return "Alibaba{" +
+        return "Tencent{" +
                 "temperature=" + temperature +
                 ", humidity=" + humidity +
                 ", pressure=" + pressure +

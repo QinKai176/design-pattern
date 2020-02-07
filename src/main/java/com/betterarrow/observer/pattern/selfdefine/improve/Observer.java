@@ -1,4 +1,4 @@
-package com.betterarrow.selfdefine.observer.improve;
+package com.betterarrow.observer.pattern.selfdefine.improve;
 
 //观察者接口，有观察者来实现
 public interface Observer {

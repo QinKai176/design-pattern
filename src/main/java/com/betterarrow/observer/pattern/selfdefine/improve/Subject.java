@@ -1,4 +1,4 @@
-package com.betterarrow.selfdefine.observer.improve;
+package com.betterarrow.observer.pattern.selfdefine.improve;
 
 //接口, 让WeatherData 来实现 
 public interface Subject {

@@ -1,8 +1,8 @@
-package com.betterarrow.spring.event.config;
+package com.betterarrow.observer.pattern.spring.config;
 
-import com.betterarrow.spring.event.EatEvent;
-import com.betterarrow.spring.event.EatEventListener;
-import com.betterarrow.spring.event.EatEventPublisherAware;
+import com.betterarrow.observer.pattern.spring.EatEvent;
+import com.betterarrow.observer.pattern.spring.EatEventListener;
+import com.betterarrow.observer.pattern.spring.EatEventPublisherAware;
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.ApplicationEventPublisherAware;
 import org.springframework.context.ApplicationListener;
