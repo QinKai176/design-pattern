@@ -29,8 +29,8 @@ public class EventConfig {
     }
 
     @Bean
-    public ApplicationEventPublisherAware eatEventPublisherAware(ApplicationEvent eatEvent) {
-        return new EatEventPublisherAware(eatEvent);
+    public ApplicationEventPublisherAware eatEventPublisherAware() {
+        return new EatEventPublisherAware();
     }
 
 }

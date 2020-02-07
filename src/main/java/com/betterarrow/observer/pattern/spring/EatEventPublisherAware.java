@@ -15,13 +15,8 @@ import org.springframework.context.ApplicationEventPublisherAware;
  */
 @Slf4j
 public class EatEventPublisherAware implements ApplicationEventPublisherAware {
+
     private ApplicationEventPublisher applicationEventPublisher;
-
-    private ApplicationEvent eatEvent;
-
-    public EatEventPublisherAware(ApplicationEvent eatEvent) {
-        this.eatEvent = eatEvent;
-    }
 
     @Override
     public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
@@ -34,7 +29,7 @@ public class EatEventPublisherAware implements ApplicationEventPublisherAware {
      */
     public void refreshEvent() {
         log.info("发送事件中……");
-        this.applicationEventPublisher.publishEvent(eatEvent);
+        this.applicationEventPublisher.publishEvent(new EatEvent(true));
     }
 
 

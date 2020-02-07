@@ -22,8 +22,6 @@ public class EatEvent extends ApplicationEvent {
      */
     public EatEvent(Boolean eatFinished) {
         super(eatFinished);
-        System.out.println(this.eatFinished);
-        System.out.println(eatFinished);
         this.eatFinished = eatFinished;
     }
 
