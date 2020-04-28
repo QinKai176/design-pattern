@@ -13,10 +13,12 @@ public class Alibaba implements Observer {
 
     @Override
     public void update(Observable o, Object arg) {
-        Data data = (Data) arg;
-        this.temperature = data.getTemperature();
-        this.humidity = data.getHumidity();
-        this.pressure = data.getPressure();
+        if (o instanceof WeatherStand) {
+            WeatherStand weatherStand = (WeatherStand) o;
+            this.temperature = weatherStand.getTemperature();
+            this.humidity = weatherStand.getHumidity();
+            this.pressure = weatherStand.getPressure();
+        }
     }
 
     @Override

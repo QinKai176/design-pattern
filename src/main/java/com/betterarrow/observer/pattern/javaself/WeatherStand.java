@@ -14,6 +14,7 @@ public class WeatherStand extends Observable {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
+        setChanged();
         notifyObservers();
     }
 
@@ -24,5 +25,17 @@ public class WeatherStand extends Observable {
                 ", humidity=" + humidity +
                 ", pressure=" + pressure +
                 '}';
+    }
+
+    public double getTemperature() {
+        return temperature;
+    }
+
+    public double getHumidity() {
+        return humidity;
+    }
+
+    public double getPressure() {
+        return pressure;
     }
 }
